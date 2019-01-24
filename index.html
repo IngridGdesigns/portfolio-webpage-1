@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="Oubah portfolio page">
@@ -10,76 +11,115 @@
     <!-- Custom fonts -->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
-    
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet">
+
+    <!-- Google fonts cookie -Ingrid--->
+    <link href="https://fonts.googleapis.com/css?family=Cookie|Lato" rel="stylesheet">
+
     <!--Bootstrap CSS -->
     <link href="bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
 
     <!--custome styles for this page -->
     <link href="index.css" rel="stylesheet">
 </head>
 
 <body>
-
-    <!-- Navigation -->
-    <nav>
-        <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-      
-    <section class="Introduction">
-  
-<h3 id="about">About Me</h3>
-    <p>I am currently learning about web developement. In the past i have worked as Employment Counselor for a non for profit organizaiton.
-    </p>
-    </section>
-
-    <section class="content">
-
-<h3 id="platform">Portfolio</h3>  
-
-<h5>Web developement Skills</h5>   
-<p>Experience with the following tools and frameworks</p>                                                  
-    <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>Bootstrap</li>
-    </ul>
-    <h5>Employment Counselor</h5>
-    <ul>
-        <li>Assisted in the development of a written employment plan that would include vocational assessments, 
-            skills training and job placement assistance</li>
-        <li>Counseled skills training recipients disadvantaged by the civil war, lack of basic education,<br> job skills, and other background conditions, to obtain self sufficiency
-             through employment and Skills training program</li>
-    </ul>
-    <h5>Trainer</h5>
-    <ul>
-        <li>Provided individualized and small groups(10 to 20 people) trainings to adapt the international agenda to
-             end violence against women. </li>
-        <li>Evaluated trainees’ learning and social growth.
-        <li>Prepared progress reports in order to identify challenges and suggest appropriate recommendations</li>
-    </ul>
-<section class="contact info">
-<h5 id="contact">Contact</h5>
-<a href="mailto:oubawaleh@gmail.com">Email Me</a> 
-</section>
-
-<!-- Footer -->
-<footer 
-class="bg-black small text-center text-black-50">
-        <div class="container">
-          Copyright &copy; All rights reserved 2019
+    <!-- Ingrid added header -->
+    <header>
+        <!-- Ingrid added row-->
+        <div class"row">
+            <!-- Ingrid added h1 text center-->
+            <h1 class="text-center">Oubah Awaleh</h1>
         </div>
-      </footer>
+        <!-- Ingrid added container-fluid class in Navigation -->
+        <nav class="container-fluid">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- header ends here-->
 
-      
+    <!-- Main body starts here - Ingrid- added container and main tag -->
+    <main class="container">
+        <section>
+            <div class="col-sm-6">
+                <img class="img-fluid rounded" src="oubah.jpeg" alt="Picture of Oubah">
+            </div>
+        </section>
+
+        <!-- Intro starts here-->
+        <section class="Introduction">
+
+            <h3 id="about">About Me</h3>
+            <p>I am currently learning about web developement. In the past i have worked as Employment Counselor for a
+                non
+                for profit organizaiton.
+            </p>
+        </section>
+
+        <section class="content">
+
+            <h3 id="platform">Portfolio</h3>
+
+            <h5>Web developement Skills</h5>
+            <p>Experience with the following tools and frameworks</p>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Bootstrap</li>
+            </ul>
+            <h5>Employment Counselor</h5>
+            <ul>
+                <li>Assisted in the development of a written employment plan that would include vocational assessments,
+                    skills training and job placement assistance</li>
+                <li>Counseled skills training recipients disadvantaged by the civil war, lack of basic education,<br>
+                    job
+                    skills, and other background conditions, to obtain self sufficiency
+                    through employment and Skills training program</li>
+            </ul>
+            <h5>Trainer</h5>
+            <ul>
+                <li>Provided individualized and small groups(10 to 20 people) trainings to adapt the international
+                    agenda
+                    to
+                    end violence against women. </li>
+                <li>Evaluated trainees’ learning and social growth.
+                <li>Prepared progress reports in order to identify challenges and suggest appropriate recommendations</li>
+            </ul>
+            <section class="contact info">
+                <h5 id="contact">Contact</h5>
+                <a href="mailto:oubawaleh@gmail.com">Email Me</a>
+            </section>
+    </main>
+    <!-- main ends here-->
+
+    <!-- Footer -->
+    <footer class="bg-black small text-center text-black-50">
+        <div class="container">
+            Copyright &copy; All rights reserved 2019
+        </div>
+    </footer>
+    <!-- footer ends here-->
+
     <!-- Bootstrap JavaScript -->
-<script src="jquery.slim.min.js"></script>
-<script src="bootstrap.min.js"></script>
-<script src="popper.min.js"></script>
+    <!---<script src="jquery.slim.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <script src="popper.min.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+
 </body>
+
 </html>
